@@ -10,18 +10,18 @@ question_list = [
 
 
 questions = [
-    #call the question class to set the question prompt and the correct answer
+    #call the question class to set the question aprompt and the correct answer
     Question(question_list[0], 'a'),
     Question(question_list[1], 'a'),
     Question(question_list[2], 'c')
 ]
 
-#input = list of questions we want to ask a user
+#input = list of questions we want to ask a user3
 def run_test(questions):
     score = 0
     for question in questions:
         if question.answer == input(question.prompt):
             score += 1
-    print(score)
+    print("You got " + str(score) + " question(s) right out of " + str(len(questions)) + " questions.")
 
 run_test(questions)
