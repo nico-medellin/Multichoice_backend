@@ -2,6 +2,9 @@ from Question_Class import Question
 
 #Create the list of questions as well as the list of multi-choice options.
 
+#list of questions that we are going to feed into the Question class.
+
+
 question_list = [
     "What color are apples? \n (a) Red/Green \n (b) Purple \n (c) Orange \n",
     "What color are bananas? \n (a) Yellow \n (b) Orange \n (c) Red \n",
